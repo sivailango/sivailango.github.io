@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="com.smartcoders" module="play-java-couchbase_2.11" revision="1.0" status="release" publication="20150514153545">
+	<info organisation="com.smartcoders" module="play-java-couchbase_2.11" revision="1.0" status="release" publication="20150520183346">
 		<description>
 		play-java-couchbase
 		</description>
