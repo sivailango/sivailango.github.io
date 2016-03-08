@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ page.title }}</title>
+	<base href="/" />
+	<link rel="stylesheet" href="public/css/bootstrap.min.css">
+	<link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+	
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">sivailango.github.io</a>
+			<ul class="nav navbar-nav">
+				<li class="active">
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<a href="/blog">Blog</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container">
+		{{ content }}
+	</div>
+
+	<footer>
+		<div class="container">
+			<hr />
+			<ul class="list-inline">
+	    		<li><a href="mailto:sivailango.s@gmail.com">email</a></li>
+	    		<li><a href="https://github.com/sivailango">github.com/sivailango</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="public/js/jquery-1.11.3.min.js"></script>
+	<script src="public/js/bootstrap.min.js"></script>
+
+</body>
+</html>

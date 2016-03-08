@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 200;
+	src: local('Roboto'), url(../fonts/Roboto-Thin.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto'), url(../fonts/Roboto-Light.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Roboto'), url(../fonts/Roboto-Medium.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Roboto'), url(../fonts/Roboto-Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto'), url(../fonts/Roboto-Black.ttf) format('truetype');
+}
+.navbar,
+.btn,
+.form-control,
+.modal-content,
+.datepicker,
+.datepicker td, .datepicker th {
+	-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+			border-radius: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  position: relative;
+}
